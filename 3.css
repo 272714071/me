@@ -1,0 +1,16 @@
+body{ font-size:18px;color:white;background: #6ccdd5;}
+
+.returm{ padding:10px 0 0 10px;}
+/*返回*/
+
+.logo{  height:100px;  margin:0 auto;  margin-top:100px;  text-align: center;  }
+/*葡萄藤LOGO*/
+
+.box { height: 100px; padding:100px 0 100px 0;text-align: center; }
+.p{display: inline-block;text-align: left;}
+/*主题文字*/
+
+.user{  width:100%  display:inline-block;  text-align: center;  }
+.user1{width: 50%;float:left;}
+.user2{width:50%;float:right;}
+/*字体和用户*/

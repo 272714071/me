@@ -1,0 +1,52 @@
+*{margin: 0; padding: 0;}
+.header{width:100%;height:50px;background:#5fc0cd;align-items:center; display: flex;}
+.header img{ width:10px;height: 15px;margin-left:20px;}
+.header  p{ font-size:1em; color:white; width:100%; text-align:center;line-height:50px; }
+/*页眉*/
+.page{display: flex; align-content: center;
+    background: url("beijing.png")no-repeat;
+    background-size: cover;  height:200px;}
+/*页面背景*/
+.tubiao img {width:100px;height:100px;padding:50px 0 0 40px;}/*女人*/
+/* .dibiao img {width:15px;height:15px;padding:90px 10px 0 30px;}/*/ /*地标*/
+.dibiao{margin: 70px 0 0 30px;}
+.name{font-size: 1.5em;color:white;}/*名字*/
+.dizhi{margin-top:10px;}/*地标和地址*/
+.dizhi img {width:1.2em; height: 1em;}/*地标*/
+.dizhi span{color: white;}
+/*页面*/
+.conten{font-size: 1.5em;}
+.conten .title{border-bottom:1.5px solid #ccc;padding:20px 0;  display:flex;align-items:center;}
+/*.conten .title b {width:0;border-left:3px solid #5fc0cd; margin-left:30px;}*/
+.conten .title span{width:100px;margin:0 2% 0 2%;border-left:3px solid #5ac0ce;padding-left: 2%;}
+/*技能标题*/
+.conten .money{border-bottom:1.5px solid #ccc;padding:20px 0;  display:flex;align-items:center;}
+.conten .money-1 {width:100px;margin:0 2% 0 5.5%;border-right:1px solid #ccc;padding-right: 2%;text-align: right; }
+/*.conten .money-1 img {margin-left: 66px;}
+.conten .money span {margin-left: 5px;}
+.conten .money b{border-left:1px solid #ccc;margin-right:30px;margin-left: 30px;}*/
+/*信息*/
+.conten .money1 {border-bottom:1.5px solid #ccc;padding:20px 0;  display:flex;align-items:center;}
+.conten .money1-1{width:100px;margin:0 2% 0 5.5%;border-right:1px solid #ccc;padding-right: 2%;color:#ccc;}
+/*.conten .money1 b{border-left:1px solid #ccc; height:30px;margin: 0 35px 0;}*/
+/*信息一*/
+.conten .money2 {border-bottom:1.5px solid #ccc;padding:20px 0;  display:flex;align-items:center;}
+.conten .money2-1 {width:100px;margin:0 2% 0 5.5%;border-right:1px solid #ccc;padding-right: 2%;color:#ccc;}
+/*.conten .money2 b{border-left:1px solid #ccc; height:30px;margin:0 35px 0;}*/
+/*信息二*/
+.conten .money3 {border-bottom:1.5px solid #ccc;padding:20px 0;  display:flex;align-items:center;}
+.conten .money3-1 {width:100px;margin:0 2% 0 5.5%;border-right:1px solid #ccc;padding-right: 2%;color:#ccc;}
+/*.conten .money3 b{border-left:1px solid #ccc; height:30px;margin:0 35px 0;}*/
+.conten .money3-2 {color: red;}
+/*信息三*/
+.conten .money4 {border-bottom:1.5px solid #ccc;padding:20px 0;  display:flex;align-items:center;}
+.conten .money4-1 {width:100px;margin:0 2% 0 5.5%;border-right:1px solid #ccc;padding-right: 2%;color:#ccc;}
+/*.conten .money4 b{border-left:1px solid #ccc; height:30px;margin:0 35px 0;}*/
+
+/*信息四*/
+.footer{width:100%;height: 100px;position:fixed;bottom:0;display:flex;align-items:center;background: white;}
+.footer-1{border:1px solid #5fc0cd;border-radius:10px; width:45%;height:80px;
+    font-size:1em;color: #5fc0cd;margin:0 2.5%;background-color: white;}
+.footer-2{border:1px solid #5fc0cd;border-radius:10px; width:45%;height:80px;
+    font-size:1em;color:white;margin:0 2.5%;background-color: #5fc0cd;}
+/*页脚按钮*/
